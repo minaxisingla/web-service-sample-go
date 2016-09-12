@@ -1,0 +1,11 @@
+---
+platform: go
+
+shared:
+    notification:
+        email: minaxi@yahoo-inc.com
+    build_containers: [gorhel6container]
+
+jobs:
+  component:
+    triggers: [sd@125303]
